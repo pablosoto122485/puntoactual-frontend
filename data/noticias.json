@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "categoria": "Tecnología",
+    "titulo": "La inteligencia artificial transforma la educación",
+    "resumen": "Herramientas inteligentes abren nuevas posibilidades para personalizar el aprendizaje y apoyar a docentes y estudiantes.",
+    "contenido": "La inteligencia artificial está ampliando las posibilidades de acompañamiento académico mediante asistentes, sistemas de recomendación y herramientas de análisis. Su uso responsable exige mantener el criterio humano, proteger los datos y entender la tecnología como apoyo al proceso educativo, no como sustituto del aprendizaje.",
+    "fecha": "2026-09-18",
+    "lectura": "4 min",
+    "imagen": "assets/img/tecnologia.svg"
+  },
+  {
+    "id": 2,
+    "categoria": "Turismo",
+    "titulo": "Destinos imperdibles en Sudamérica",
+    "resumen": "Una selección de lugares que combinan patrimonio, naturaleza y experiencias culturales para distintos tipos de viajeros.",
+    "contenido": "Sudamérica ofrece una diversidad excepcional de paisajes y culturas. Desde centros históricos hasta reservas naturales, cada destino puede convertirse en una experiencia de aprendizaje y encuentro. La planificación responsable ayuda a reducir impactos y favorece a las comunidades locales.",
+    "fecha": "2026-09-16",
+    "lectura": "5 min",
+    "imagen": "assets/img/turismo.svg"
+  },
+  {
+    "id": 3,
+    "categoria": "Comercial",
+    "titulo": "Energías renovables: un futuro más limpio",
+    "resumen": "Empresas y comunidades incorporan nuevas soluciones energéticas para mejorar eficiencia y sostenibilidad.",
+    "contenido": "La transición energética combina innovación tecnológica, inversión y cambios de hábitos. Las organizaciones están adoptando sistemas solares, medición inteligente y estrategias de eficiencia que disminuyen costos operativos y reducen emisiones.",
+    "fecha": "2026-09-14",
+    "lectura": "4 min",
+    "imagen": "assets/img/comercial.svg"
+  },
+  {
+    "id": 4,
+    "categoria": "Educación",
+    "titulo": "El poder del aprendizaje en línea",
+    "resumen": "La formación virtual consolida nuevos formatos de estudio y exige hábitos de autonomía, organización y participación.",
+    "contenido": "El aprendizaje en línea permite combinar recursos multimedia, espacios colaborativos y actividades asincrónicas. Su efectividad depende de una buena planificación, objetivos claros y una participación constante por parte del estudiante.",
+    "fecha": "2026-09-12",
+    "lectura": "3 min",
+    "imagen": "assets/img/educacion.svg"
+  },
+  {
+    "id": 5,
+    "categoria": "Negocios",
+    "titulo": "El crecimiento de las startups en Latinoamérica",
+    "resumen": "Nuevos emprendimientos digitales buscan resolver problemas locales con productos escalables y modelos de negocio ágiles.",
+    "contenido": "El ecosistema emprendedor latinoamericano sigue madurando gracias a comunidades técnicas, inversión regional y programas de aceleración. La capacidad de validar necesidades reales continúa siendo uno de los factores más importantes para construir productos sostenibles.",
+    "fecha": "2026-09-10",
+    "lectura": "5 min",
+    "imagen": "assets/img/negocios.svg"
+  },
+  {
+    "id": 6,
+    "categoria": "Salud",
+    "titulo": "Hábitos saludables para una vida mejor",
+    "resumen": "Pequeños cambios sostenidos en descanso, movimiento y alimentación pueden aportar bienestar en la vida cotidiana.",
+    "contenido": "Los hábitos saludables se construyen de forma gradual. Dormir adecuadamente, mantener actividad física regular y organizar una alimentación variada son acciones básicas que pueden integrarse de manera realista en la rutina.",
+    "fecha": "2026-09-08",
+    "lectura": "4 min",
+    "imagen": "assets/img/salud.svg"
+  }
+]
