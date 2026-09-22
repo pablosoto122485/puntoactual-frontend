@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PuntoActual - Plataforma web de noticias">
+  <title>Favoritos | PuntoActual</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="PuntoActual - Inicio">Punto<span>Actual</span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="noticias.html">Noticias</a>
+      <a href="favoritos.html">Favoritos</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="gestion.html">Gestión</a>
+    </nav>
+    <a class="avatar" href="gestion.html" aria-label="Ir a gestión">PS</a>
+  </div>
+</header>
+
+<main class="section page-top">
+  <div class="container">
+    <p class="eyebrow">TU SELECCIÓN</p><h1 class="page-title">Mis favoritos</h1>
+    <p class="page-subtitle">Aquí encontrarás las noticias que guardaste para leer después.</p>
+    <div id="favoritesGrid" class="cards-grid"></div>
+    <div id="favoritesEmpty" class="empty-state hidden"><div class="empty-icon">♡</div><h2>¿Aún no tienes favoritos?</h2><p>Explora noticias y guarda las que no quieras perder.</p><a class="btn btn-primary" href="noticias.html">Ver noticias</a></div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><div class="brand brand-light">Punto<span>Actual</span></div><p>Noticias que informan e inspiran.</p></div>
+    <div><strong>Navegación</strong><p><a href="index.html">Inicio</a> · <a href="noticias.html">Noticias</a> · <a href="favoritos.html">Favoritos</a> · <a href="contacto.html">Contacto</a></p></div>
+    <div><strong>Recursos</strong><p>Acerca de · Privacidad · Términos · Ayuda</p></div>
+  </div>
+  <div class="container copyright">© 2026 PuntoActual. Proyecto académico.</div>
+</footer>
+<script src="js/app.js" defer></script><script src="js/favoritos.js" defer></script></body></html>
