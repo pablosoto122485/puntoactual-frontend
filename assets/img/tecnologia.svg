@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="900" height="520" rx="28" fill="#dcecff"/>
+<circle cx="720" cy="105" r="80" fill="#1e64d4" opacity=".12"/>
+<circle cx="760" cy="390" r="125" fill="#1e64d4" opacity=".08"/>
+<path d="M90 360 C210 220 320 430 465 250 C590 95 700 245 820 170" fill="none" stroke="#1e64d4" stroke-width="20" stroke-linecap="round" opacity=".28"/>
+<text x="70" y="105" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#1e64d4">PuntoActual</text>
+<text x="70" y="285" font-family="Arial, sans-serif" font-size="68" font-weight="700" fill="#1e64d4">Tecnología</text>
+</svg>
