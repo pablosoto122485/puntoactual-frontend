@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PuntoActual - Plataforma web de noticias">
+  <title>Contacto | PuntoActual</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="PuntoActual - Inicio">Punto<span>Actual</span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="noticias.html">Noticias</a>
+      <a href="favoritos.html">Favoritos</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="gestion.html">Gestión</a>
+    </nav>
+    <a class="avatar" href="gestion.html" aria-label="Ir a gestión">PS</a>
+  </div>
+</header>
+
+<main class="section page-top">
+  <div class="container">
+    <p class="eyebrow">HABLEMOS</p><h1 class="page-title">Contáctanos</h1><p class="page-subtitle">¿Tienes alguna duda, sugerencia o quieres compartir una noticia? Escríbenos.</p>
+    <div class="contact-grid">
+      <form id="contactForm" class="card form-card" novalidate>
+        <div class="form-grid">
+          <div><label for="name">Nombre completo *</label><input id="name" name="name" required minlength="3"><small class="field-error"></small></div>
+          <div><label for="email">Correo electrónico *</label><input id="email" name="email" type="email" required><small class="field-error"></small></div>
+          <div><label for="subject">Asunto *</label><input id="subject" name="subject" required minlength="4"><small class="field-error"></small></div>
+          <div><label for="category">Categoría</label><select id="category" name="category"><option>Consulta general</option><option>Sugerencia</option><option>Noticia</option><option>Soporte</option></select></div>
+          <div class="full"><label for="message">Mensaje *</label><textarea id="message" name="message" rows="7" required minlength="10"></textarea><small class="field-error"></small></div>
+        </div>
+        <button class="btn btn-primary" type="submit">Enviar mensaje</button>
+        <div id="formMessage" class="form-message" role="status"></div>
+      </form>
+      <aside class="card contact-info"><h2>Información de contacto</h2><p>También puedes contactarnos por estos canales.</p><p><strong>Correo</strong><br>contacto@puntoactual.co</p><p><strong>Ubicación</strong><br>Colombia</p><p><strong>Horario</strong><br>Lunes a viernes · 8:00 a. m. - 6:00 p. m.</p></aside>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><div class="brand brand-light">Punto<span>Actual</span></div><p>Noticias que informan e inspiran.</p></div>
+    <div><strong>Navegación</strong><p><a href="index.html">Inicio</a> · <a href="noticias.html">Noticias</a> · <a href="favoritos.html">Favoritos</a> · <a href="contacto.html">Contacto</a></p></div>
+    <div><strong>Recursos</strong><p>Acerca de · Privacidad · Términos · Ayuda</p></div>
+  </div>
+  <div class="container copyright">© 2026 PuntoActual. Proyecto académico.</div>
+</footer>
+<script src="js/app.js" defer></script><script src="js/contacto.js" defer></script></body></html>
