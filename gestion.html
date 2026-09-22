@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PuntoActual - Plataforma web de noticias">
+  <title>Gestión | PuntoActual</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="PuntoActual - Inicio">Punto<span>Actual</span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="noticias.html">Noticias</a>
+      <a href="favoritos.html">Favoritos</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="gestion.html">Gestión</a>
+    </nav>
+    <a class="avatar" href="gestion.html" aria-label="Ir a gestión">PS</a>
+  </div>
+</header>
+
+<main class="section page-top">
+  <div class="container">
+    <div class="section-heading"><div><p class="eyebrow">MINI CRUD ACADÉMICO</p><h1 class="page-title">Gestión de noticias</h1><p class="page-subtitle">Crea y elimina noticias de manera local.</p></div></div>
+    <div class="management-layout">
+      <form id="newsForm" class="card form-card">
+        <h2>Crear nueva noticia</h2>
+        <label for="title">Título *</label><input id="title" required minlength="5">
+        <label for="cat">Categoría *</label><select id="cat" required><option value="">Selecciona...</option><option>Tecnología</option><option>Educación</option><option>Turismo</option><option>Comercial</option><option>Negocios</option><option>Salud</option></select>
+        <label for="summary">Resumen *</label><textarea id="summary" rows="3" required minlength="15"></textarea>
+        <label for="content">Contenido *</label><textarea id="content" rows="7" required minlength="30"></textarea>
+        <div class="button-row"><button type="reset" class="btn btn-secondary">Cancelar</button><button class="btn btn-primary">Publicar noticia</button></div>
+        <div id="manageMessage" class="form-message" role="status"></div>
+      </form>
+      <section class="card management-list"><h2>Noticias registradas</h2><div id="manageList"></div></section>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><div class="brand brand-light">Punto<span>Actual</span></div><p>Noticias que informan e inspiran.</p></div>
+    <div><strong>Navegación</strong><p><a href="index.html">Inicio</a> · <a href="noticias.html">Noticias</a> · <a href="favoritos.html">Favoritos</a> · <a href="contacto.html">Contacto</a></p></div>
+    <div><strong>Recursos</strong><p>Acerca de · Privacidad · Términos · Ayuda</p></div>
+  </div>
+  <div class="container copyright">© 2026 PuntoActual. Proyecto académico.</div>
+</footer>
+<script src="js/app.js" defer></script><script src="js/gestion.js" defer></script></body></html>
