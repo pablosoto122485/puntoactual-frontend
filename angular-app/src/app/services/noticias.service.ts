@@ -78,7 +78,7 @@ export class NoticiasService {
     }
   }
 
-  guardarMensaje(mensaje: Record<string, unknown>): void {
+  guardarMensaje(mensaje: object): void {
     const actuales = this.leerObjetos(this.MENSAJES_KEY);
     localStorage.setItem(
       this.MENSAJES_KEY,
