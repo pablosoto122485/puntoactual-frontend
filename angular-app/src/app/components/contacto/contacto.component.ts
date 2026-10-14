@@ -101,7 +101,7 @@ export class ContactoComponent {
     private readonly servicio: NoticiasService
   ) {}
 
-  invalido(campo: keyof typeof this.form.controls): boolean {
+  invalido(campo: 'nombre' | 'correo' | 'asunto' | 'mensaje'): boolean {
     const control = this.form.controls[campo];
     return control.invalid && (control.touched || control.dirty);
   }
