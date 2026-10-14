@@ -1,59 +1,64 @@
-# PuntoActual - Entrega Previa 2
+# PuntoActual - Entrega Final
 
-Plataforma Web de Noticias propuesta en la Entrega Previa 2.
+Plataforma Web de Noticias desarrollada para el módulo **Desarrollo de Front-end**.
+
+## Sitio desplegado
+
+https://pablosoto122485.github.io/puntoactual-frontend/
+
+## Implementación con framework
+
+La versión final incorpora una implementación funcional con **Angular + TypeScript** en la carpeta:
+
+```text
+angular-app/
+```
+
+Esta implementación evidencia componentes, rutas, servicios, binding, formularios reactivos, HttpClient y Web Storage.
 
 ## Tecnologías
-- HTML5 semántico
+
+- Angular 18
+- TypeScript
+- HTML5
 - CSS3 responsive
-- JavaScript ES6
+- Angular Router
+- Reactive Forms
+- HttpClient
 - JSON local
-- Web Storage API (`localStorage`)
+- Web Storage API / localStorage
+- GitHub Actions
+- GitHub Pages
 
 ## Funcionalidades
-- Home con noticias destacadas y buscador.
-- Listado dinámico desde JSON con búsqueda, filtros, fecha y orden.
-- Detalle de noticia y noticias relacionadas.
-- Gestión de favoritos persistente con `localStorage`.
-- Formulario de contacto con validación y confirmación.
-- Mini CRUD académico para crear y eliminar noticias locales.
-- Diseño responsive y navegación adaptable.
 
-## Estructura
-```text
-.
-├── index.html
-├── noticias.html
-├── detalle.html
-├── favoritos.html
-├── contacto.html
-├── gestion.html
-├── css/
-│   └── styles.css
-├── js/
-│   ├── app.js
-│   ├── home.js
-│   ├── noticias.js
-│   ├── detalle.js
-│   ├── favoritos.js
-│   ├── contacto.js
-│   └── gestion.js
-├── data/
-│   └── noticias.json
-└── assets/img/
-```
+- Home con buscador y noticias destacadas.
+- Listado con búsqueda, categoría y orden.
+- Detalle de noticias y contenidos relacionados.
+- Favoritos persistentes.
+- Formulario de contacto con validación.
+- Mini CRUD para crear y eliminar noticias locales.
+- Diseño responsive.
+- Despliegue automatizado con GitHub Actions.
 
-## Ejecución local
-Debido a que el proyecto carga un archivo JSON mediante `fetch`, debe ejecutarse desde un servidor HTTP local.
+## Ejecución local de Angular
 
-Con Python:
 ```bash
-python -m http.server 8000
+cd angular-app
+npm install
+npm start
 ```
 
-Luego abrir:
-`http://localhost:8000`
+Abrir:
 
-También puede utilizarse Live Server en Visual Studio Code.
+```text
+http://localhost:4200/
+```
 
 ## Repositorio
-El proyecto está publicado en GitHub https://github.com/pablosoto122485/puntoactual-frontend
+
+https://github.com/pablosoto122485/puntoactual-frontend
+
+## Entrega Final
+
+La carpeta `docs/` contiene material de apoyo para el video explicativo. La evidencia del framework se encuentra en `angular-app/`.
