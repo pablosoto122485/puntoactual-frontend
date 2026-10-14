@@ -76,7 +76,7 @@ import { NoticiasService } from '../../services/noticias.service';
               Esta pantalla utiliza <strong>ReactiveFormsModule</strong>,
               <strong>FormBuilder</strong> y <strong>Validators</strong>.
             </p>
-            <p><strong>Correo</strong><br>contacto@puntoactual.co</p>
+            <p><strong>Correo</strong><br>contacto&#64;puntoactual.co</p>
             <p><strong>Ubicación</strong><br>Colombia</p>
           </aside>
         </div>
